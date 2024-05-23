@@ -10,7 +10,7 @@
 h1 {
   font-size: 2em;
   font-weight: 500;
-  color: #333;
+  color: #ff0000;
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -18,7 +18,7 @@ h1 {
 h2 {
   font-size: 1.5em;
   font-weight: 400;
-  color: #333;
+  color: #0000ff;
 }
 
 h3 {
@@ -27,7 +27,7 @@ h3 {
 
 p {
   font-size: 1.5em;
-  color: #3333336b;
+  color: #0000ff93;
   text-align: center;
 }
 
@@ -41,6 +41,7 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: #00ff00;
 }
 
 .main {
@@ -82,8 +83,6 @@ p {
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-end;
-  /* margin-top: 20px;
-  margin-right: 20px; */
 }
 
 .address h2 {
