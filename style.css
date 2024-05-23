@@ -4,11 +4,35 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: 500;
+  color: #333;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: 400;
+  color: #333;
+}
+
+h3 {
+  /* empty for the future */
+}
+
+p {
+  font-size: 1.5em;
+  color: #3333336b;
+  text-align: center;
 }
 
 .new-body {
   width: 71vw;
   height: 89vh;
+  margin: 5px;
   border-style: solid;
   display: flex;
   flex-direction: column;
@@ -27,9 +51,12 @@
 }
 
 .company-name {
-  width: 30vw;
+  width: 17vw;
   height: 30vh;
   border-style: solid;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
@@ -48,8 +75,12 @@
   width: 27vw;
   height: 44vh;
   border-style: solid;
-  align-items: center;
-  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  /* margin-top: 20px;
+  margin-right: 20px; */
 }
 
 .phone {
